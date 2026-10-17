@@ -9,11 +9,9 @@ How to run it
 With devenv installed
 ---------------------
 
-```
-devenv allow
-devenv shell
-uv run main.py	
-```
+$ devenv allow
+$ devenv shell
+$ uv run main.py	
 
 Without devenv installed
 ------------------------
@@ -27,12 +25,9 @@ Requirements :
 1- Install :
 ~~~~~~~~~~~~
 
-```
-uv sync
-```
+$ uv sync
 
 2- Run :
 ~~~~~~~~
-```
-uv run main.py
-```
+
+$ uv run main.py
