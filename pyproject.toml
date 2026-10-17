@@ -1,0 +1,19 @@
+[project]
+name = "pyglet-first-try"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mathieu", email = "39670015+mathieusouflis@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyglet"
+]
+
+[project.scripts]
+main = "pyglet_first_try:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
