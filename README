@@ -3,6 +3,7 @@ PYGLET TESTS
 
 This is my personal tests for pyglet in prevision of the J3D project.
 
+
 How to run it
 =============
 
@@ -13,6 +14,7 @@ $ devenv allow
 $ devenv shell
 $ uv run main.py	
 
+
 Without devenv installed
 ------------------------
 
@@ -22,10 +24,12 @@ Requirements :
 * Python (https://www.python.org/downloads/)
 * Uv (https://docs.astral.sh/uv/getting-started/installation/)
 
+
 1- Install :
 ~~~~~~~~~~~~
 
 $ uv sync
+
 
 2- Run :
 ~~~~~~~~
